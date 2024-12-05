@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscription Soirée Privée Moncler</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input[type="text"], input[type="email"] {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+
+    input[type="submit"] {
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #555;
+    }
+
+    .privacy-text {
+      font-size: 0.9em;
+      color: #777;
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .privacy-text a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    .header {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 1.2em;
+    }
+
+    /* Style for the images */
+    .moncler-images {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+
+    .moncler-images img {
+      width: 48%;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="Moncler-Logo.png" alt="Logo Moncler" width="150">
+    <p>Soirée Privée Moncler - Inscription VIP</p>
+  </div>
+
+  <div class="container">
+    <h1>Inscription à la Soirée Privée</h1>
+    <form action="/submit_form" method="POST">
+      <div class="form-group">
+        <label for="name">Nom complet</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Adresse e-mail</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <input type="submit" value="S'inscrire">
+      </div>
+    </form>
+
+    <p class="privacy-text">
+      En vous inscrivant, vous acceptez nos <a href="#">Conditions de confidentialité</a> et nos <a href="#">Termes et conditions</a>.
+    </p>
+
+    <!-- Images Moncler -->
+    <div class="moncler-images">
+      <img src="https://www.moncler.com/-/media/moncler-hero-image.jpg" alt="Moncler fashion" />
+      <img src="https://media.moncler.com/media/2022/02/moncler-relaunches-the-brand.jpg" alt="Moncler store" />
+    </div>
+  </div>
+</body>
+</html>
